@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MS Library</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+        }
+
+        .poster {
+            width: 100%;
+            text-align: left;
+            background-color: rgb(60, 255, 197);
+        }
+
+        h1 {
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+
+        h2 {
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+
+        p1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+
+        p2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+
+        /* Form start */
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+
+        input[type=submit] {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgb(60, 255, 197);
+            color: black;
+        }
+
+        .container {
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 5px;
+            background-color: #ccc;
+            padding: 20px;
+            width: 50%;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 80%;
+                margin-top: 0;
+            }
+        }
+
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+
+            .col-25,
+            .col-75,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+
+        /* Form End */
+    </style>
+</head>
+
+<body>
+    <div class="poster" style="padding-top:4px">
+        <h1>MS Pocket Library</h1>
+    </div>
+    <div>
+        <h2>Contact</h2>
+        <p1>You can Contact us by email or Phone number mention below</p1>
+        <br>
+        <p2>shubhbanjare518@gmail.com
+            <br>
+            +917898930946
+            <br>
+            +919131982621
+        </p2>
+        <br>
+        <p1>Or you can direct send a message to us in below box</p1>
+    </div>
+    
+        <div class="container">
+            <h2>Any Query</h2>
+            <form
+                action="https://docs.google.com/forms/d/e/1FAIpQLSffOv8oxs_OORscodlvlpvm8wuzqWt92nvX48BccGXNFPRTuA/formResponse">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="entry.1534140550" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="entry.462066612" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="email" name="entry.592180866" placeholder="xyz@gmail.com">
+                    </div>
+                </div>
+               
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Write a message/ any query</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="entry.861746646" placeholder="Write something.."
+                            style="height:150px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row" style="color: blue;">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    
+
+    <h2>Feedback</h2>
+<p1>Help us by providing your Feedback</p1>
+    
+        <div class="container">
+            <h2>Feedback</h2>
+            <form
+                action="https://docs.google.com/forms/d/e/1FAIpQLSdM2_7X8XA2fj4TWs0g7A7xp3iHEdxRq-o_ldx0IvdsSibYvA/formResponse">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="entry.321075688" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="entry.2071849579" placeholder="Your last name..">
+                    </div>
+                </div>
+               
+               
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Feedback</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="entry.2055810623" placeholder="Enter your feedback here and click the submit button"
+                            style="height:150px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row" style="color: blue;">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    
+
+</body>
+
+</html>
