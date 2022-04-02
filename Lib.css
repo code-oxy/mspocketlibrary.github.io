@@ -58,6 +58,8 @@ h3 {
     font-size: 25px;
   }
 
+  
+
   .about {
     text-align: center;
   }
@@ -65,6 +67,28 @@ h3 {
   .girl-book {
     width: 80%; 
     height: 200px
+  }
+
+  .read {
+    background-color: rgb(60, 255, 197);
+    color: white;
+   font-family: 'Times New Roman', Times, serif;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  @media screen and (max-width: 600px) {
+    .read {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    p3 {
+       font-size: 15px;
+    }
   }
 
   * {
@@ -106,7 +130,7 @@ h3 {
   }
   
   input[type=submit] {
-    background-color: black;
+    background-color:  rgb(0, 0, 0);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -116,15 +140,22 @@ h3 {
   }
   
   input[type=submit]:hover {
-    background-color: #4bfff6;
+    background-color: rgb(60, 255, 197);
+    color: black;
   }
   
   .container {
     font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ccc;
     padding: 20px;
     width: 50%;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 80%;
+      margin-top: 0;
+    }
   }
   
   .col-25 {
@@ -163,5 +194,5 @@ h3 {
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
   }
