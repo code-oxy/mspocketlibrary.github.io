@@ -69,6 +69,11 @@ h3 {
     height: 200px
   }
 
+
+  .rating {
+    text-align: center;
+  }
+
   .read {
     background-color: rgb(60, 255, 197);
     color: white;
